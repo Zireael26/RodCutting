@@ -36,7 +36,9 @@ public class Main {
                 left++;
                 right--;
             }
+            
         }
+        
 
         System.out.println("The maximum selling price for the rod is: " + maximCost[arr.length - 1]);
         System.out.println("The pieces it must be broken down into are: " + path[arr.length - 1]);
